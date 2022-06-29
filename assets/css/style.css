@@ -1,8 +1,7 @@
-/* global stylind for border box*/
 * {
   box-sizing: border-box;
 }
-/* :root matches the root of the document (represents content of <html>).*/
+
 :root {
   --primary: #44e9ff;
   --secondary: #497980;
@@ -10,7 +9,7 @@
   --grey: #333;
   font-size: 62.5%;
 }
-/* styling of entire body section*/
+
 body {
   background: #ededed;
   color: var(--grey);
@@ -21,30 +20,30 @@ body {
   flex-direction: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/*sytling for the entire header section*/
+
 header {
   background: var(--secondary);
   padding: 30px 25px;
   border-bottom: 5px solid var(--primary);
 }
-/*styling for <p> section in the header */
+
 header p {
   color: var(--tertiary);
   margin: 5px 0 20px;
   font-size: 2rem;
 }
-/*styling for <p> and <li> section in <header>*/
+
 p,
 li {
   font-size: 1.6rem;
 }
-/* styling for form section*/
+
 form {
   display: flex;
   align-items: flex-end;
   flex-wrap: wrap;
 }
-/* styling for form input section*/
+
 form input {
   outline: none;
   border: none;
@@ -54,12 +53,12 @@ form input {
   border: 2px solid var(--grey);
   border-radius: 12px;
 }
-/* styling for the form-group in the form section*/
+
 form .form-group {
   margin: 10px 6px 10px 0;
   flex: 1;
 }
-/*styling for the footer section*/
+
 footer {
   width: 100%;
   background: var(--secondary);
@@ -68,14 +67,14 @@ footer {
   padding: 20px;
   border-top: 5px solid var(--primary);
 }
-/*styling for the title of the page title*/
+
 .page-title {
   color: var(--primary);
   margin-bottom: 5px;
   margin-top: 0;
   font-size: 4.5rem;
 }
-/*styling for the page content */
+
 .page-content {
   flex: 1;
   display: flex;
